@@ -16,7 +16,9 @@ After you have ran the script and created the cuckoo user, you will need to run 
 3.	./bootstrap.sh
 4.	./configure --prefix=${VIRTUAL_ENV} && make && make install
 5.	pip install python-yara
+
 Then, install volatility:
+
 1.	git clone https://github.com/volatilityfoundation/volatility.git
 2.	cd volatility/ 
 3.	pip install distorm3 pycrypto pillow openpyxl ujson
@@ -26,7 +28,9 @@ A few things to understand about this script. It just sets up the os for you. An
 This is done by you. So after the script runs, create vm’s any way you want with whatever software you want. For my labs I am using WinXPSP3x86 and Win7SP0x86.
  
 Here is the best link or article that I want you to use for information on cuckoo setup. The new version of cuckoo does not follow these exact steps but I want you to have a general overview of the process. 
+
 https://infosecspeakeasy.org/t/howto-build-a-cuckoo-sandbox/27
+
 Also install the guest packages from the link above.
 Pay attention to the applications you install. Disable any update settings, bump down security on browsers, and turn off firewall and other system level setting.
 
