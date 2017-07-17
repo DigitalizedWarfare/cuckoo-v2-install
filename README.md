@@ -47,7 +47,7 @@ The last step when creating a vm, is making a snapshot. This is the point where 
 Also you need to set the osprofile for each vm in the virtualbox.conf file. You can get the profile name by using the vol.py –info command. This name has to match the OS you are running. Example: My win xp is WinXPSP3x86 for the OS build. The osprofile setting has to be this exact string. And yes treat it as Case sensitive.
 
 When you’re ready to run cuckoo you can execute the following 3 commands. If you do not have screen installed, you need to remove it from the commands below. The Rooter has to be started first and left running. The then report server. Change its ip to what your vm is. And finally cuckoo needs to be started.
-
+ 
 •	screen cuckoo rooter -g maint --sudo
 •	screen cuckoo web runserver 172.16.1.29:5000
 •	screen cuckoo -d
