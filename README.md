@@ -8,7 +8,9 @@ You are going to need the following to run this correctly.
 4.	Malware : This is a malware lab
 
 When installing the Ubuntu vm create a user called “maint”. This is the user that all scripts will run in, as well as the user account for cuckoo. I have also included sample conf files. Feel free to use them. Just change ip’s and what not.
+
 Get script from my Git Repo: https://github.com/DigitalizedWarfare/cuckoo-v2-install.git
+
 After you have ran the script and created the cuckoo user, you will need to run the following in the user’s virtual env. (Execute: . venv/bin/activate) 
 
 1.	git clone https://github.com/VirusTotal/yara.git
