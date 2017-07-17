@@ -48,9 +48,9 @@ Also you need to set the osprofile for each vm in the virtualbox.conf file. You 
 
 When you’re ready to run cuckoo you can execute the following 3 commands. If you do not have screen installed, you need to remove it from the commands below. The Rooter has to be started first and left running. The then report server. Change its ip to what your vm is. And finally cuckoo needs to be started.
  
-•	screen cuckoo rooter -g maint --sudo
-•	screen cuckoo web runserver 172.16.1.29:5000
-•	screen cuckoo -d
+1. screen cuckoo rooter -g maint --sudo
+2. screen cuckoo web runserver 172.16.1.29:5000
+3. screen cuckoo -d
 
 https://www.proteansec.com/linux/installing-using-cuckoo-malware-analysis-sandbox/
 
