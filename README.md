@@ -53,5 +53,5 @@ When you’re ready to run cuckoo you can execute the following 3 commands. If y
 •	screen cuckoo -d
 
 https://www.proteansec.com/linux/installing-using-cuckoo-malware-analysis-sandbox/
-https://media.readthedocs.org/pdf/cuckoo/latest/cuckoo.pdf
 
+https://media.readthedocs.org/pdf/cuckoo/latest/cuckoo.pdf
