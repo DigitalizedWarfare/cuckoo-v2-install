@@ -22,7 +22,7 @@ echo "Installing Python Base Files"
 sudo apt-get install python python-pip python-dev libffi-dev libssl-dev python-libemu pkconfig build-essential checkinstall tesseract-ocr git-core autoconf libtool linux-headers-$(uname -r) -y -qq
 
 echo "Installing Env and Python Setup Tools Files"
-sudo apt-get install python-virtualenv python-setuptools libjpeg-dev zlib1g-dev swig libmagic-dev libconfig-dev libarchive-dev autoconf automake libjansson-dev openjdk-7-jre-headless -y -qq
+sudo apt-get install python-virtualenv python-setuptools libjpeg-dev zlib1g-dev swig libmagic-dev libconfig-dev libarchive-dev autoconf automake libjansson-dev openjdk-7-jre-headless ethtool -y -qq
 
 
 echo "Building XRDP"
